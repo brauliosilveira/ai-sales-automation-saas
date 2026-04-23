@@ -1,5 +1,11 @@
 # AI Sales Automation SaaS
 
+📺 **[Watch a 5-minute Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
+
+🌐 **[View the Live Project](https://botpravender.com/)**
+
+🌐 **[Try the Free Trial](https://botpravender.com/teste)**
+
 A production-grade SaaS platform for WhatsApp-based sales automation, built to help businesses manage contact data, validate phone numbers, launch campaigns at scale, extract lead sources, and improve message quality with AI-assisted content variation.
 
 This repository is presented as a public portfolio case study for recruiters, hiring managers, and founders evaluating senior full-stack product work. It highlights the product architecture, automation strategy, multi-tenant SaaS design, operational workflows, and AI-assisted messaging features behind the platform while keeping the full source code private for commercial and security reasons.
@@ -19,6 +25,14 @@ Instead of treating outbound messaging as a simple blast tool, the platform was 
 - improving message variation and safety with AI-assisted spintax generation and quality checks.
 
 The result is a SaaS product that connects acquisition, list building, outbound execution, and campaign analytics inside one environment.
+
+The platform is also designed for cross-device access, allowing teams to operate from desktop and mobile environments through a PWA-style experience compatible with:
+
+- Windows
+- macOS
+- Linux
+- iPhone
+- Android
 
 ## The Problem
 
@@ -110,6 +124,44 @@ The platform includes AI-assisted spintax generation and messaging-quality guida
 
 This matters because message quality directly affects deliverability and operational safety in WhatsApp-based outbound workflows.
 
+## Product Roadmap
+
+In addition to the capabilities already implemented, the product roadmap includes four major feature areas that expand the platform beyond outbound execution and into a broader automation operating system for sales teams.
+
+### 1. Button-based campaign interactions
+
+The campaign layer is being extended to support interactive buttons, including:
+
+- link buttons for external pages or a primary WhatsApp contact;
+- positive-intent buttons such as `Yes`, `I want this`, or `I am interested`, which can trigger an AI agent flow, chatbot flow, or human handoff;
+- opt-out buttons such as `No`, `Not interested`, or `Block`, which store suppression intent directly on the lead/contact record.
+
+This moves campaigns closer to structured interaction design rather than plain outbound messaging.
+
+### 2. Account health intelligence
+
+A dedicated account-health module is being introduced so the platform can evaluate WhatsApp-instance condition and automatically recommend or constrain how many messages an account should send per day.
+
+The goal is to turn sending-capacity decisions into a guided, system-driven layer rather than a purely manual guess.
+
+### 3. Intelligent account warming
+
+The platform roadmap also includes an intelligent warm-up module focused on operational readiness. Instead of treating new instances as immediately ready for scale, the system will use structured warm-up missions, health checks, and readiness logic before higher-volume sending is allowed.
+
+This expands the product from campaign execution into account preparation and operational governance.
+
+### 4. Segmented B2B data acquisition
+
+Another planned capability is segmented contact-base acquisition, where users can choose:
+
+- business segment;
+- city;
+- state.
+
+The platform will then generate a segmented B2B contact base that can be used to start outbound prospecting directly from within the same system.
+
+This creates a more complete workflow that connects lead acquisition, qualification, campaign launch, and follow-up inside a single product.
+
 ## Technical Analysis of the App
 
 Based on the application codebase, the platform is built with:
@@ -188,6 +240,8 @@ The platform integrates with external services for:
 - AI text assistance;
 - transactional notifications.
 
+It is also designed to remain accessible across both desktop and mobile usage patterns, giving operators flexibility to manage workflows from office or field environments.
+
 ## Technical Flow
 
 ### 1. Data acquisition
@@ -263,6 +317,8 @@ This project demonstrates:
 - operational automation for revenue-facing sales workflows;
 - practical AI feature design tied to real product outcomes;
 - asynchronous job processing and delivery-state orchestration;
+- cross-platform SaaS product thinking through a PWA-style access model;
+- a roadmap that expands the product into interaction design, account health, readiness automation, and segmented lead acquisition;
 - a strong blend of product UX and systems engineering.
 
 It also shows a very practical business skill: turning a messy outbound sales process into a structured, productized, and scalable workflow.
