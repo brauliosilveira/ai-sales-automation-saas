@@ -350,3 +350,8 @@ I designed and implemented the product architecture and automation workflows beh
 ## Contact
 
 If you would like a live walkthrough or want to discuss AI-enabled SaaS platforms, automation systems, outbound operations, or full-stack roles, feel free to reach out.
+
+- Website: https://www.brauliosilveira.com
+- LinkedIn: https://linkedin.com/in/brauliosilveira
+- Email: contact@brauliosilveira.com
+- YouTube: https://youtube.com/@venderpelowhats
