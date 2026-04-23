@@ -1,10 +1,7 @@
 # AI Sales Automation SaaS
 
 📺 **[Watch the Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
-
-🌐 **[View the Live Project](https://botpravender.com/)**
-
-🌐 **[Try the Free Trial](https://botpravender.com/teste)**
+🌐 **[View the Live Project](https://botpravender.com/)** | 🌐 **[Try the Free Trial](https://botpravender.com/teste)**
 
 A production-grade SaaS platform for WhatsApp-based sales automation, built to help businesses manage contact data, validate phone numbers, launch campaigns at scale, extract lead sources, and improve message quality with AI-assisted content variation.
 
