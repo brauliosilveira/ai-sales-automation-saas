@@ -1,6 +1,6 @@
 # AI Sales Automation SaaS
 
-📺 **[Watch a 5-minute Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
+📺 **[Watch the Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
 
 🌐 **[View the Live Project](https://botpravender.com/)**
 
