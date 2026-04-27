@@ -380,10 +380,7 @@ It also shows a very practical business skill: turning a messy outbound sales pr
       <br/><sub><b>Mobile</b></sub>
     </td>
   </tr>
-</table>r/><sub><b>Campaign Builder — Multi-Step Send Configuration</b></sub>
-    </td>
-  </tr>
-</table>
+</table>r/>
 
 ## Stack
 
