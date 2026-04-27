@@ -65,6 +65,7 @@ This platform was built to solve that operational fragmentation with a productiz
 - AI-assisted spintax generation for message variation
 - Message quality checks to reduce risky sending patterns
 - Worker-based asynchronous processing for outbound operations
+- WhatsApp OTP-based password recovery with 3-step verification flow
 
 ## Core Product Capabilities
 
@@ -126,6 +127,20 @@ The product includes dashboard-level and campaign-level visibility over:
 The platform includes AI-assisted spintax generation and messaging-quality guidance to help users create more varied and less repetitive outbound content.
 
 This matters because message quality directly affects deliverability and operational safety in WhatsApp-based outbound workflows.
+
+### WhatsApp OTP password recovery
+
+The platform uses WhatsApp itself as the authentication channel for password recovery, eliminating dependency on email delivery and keeping the experience inside the same ecosystem users already operate in.
+
+The recovery flow runs across three steps:
+
+**Step 1 — Identity confirmation.** The user enters their registered email address. The system validates the account and displays the WhatsApp number associated with it (partially masked for privacy), confirming where the OTP will be sent.
+
+**Step 2 — OTP delivery and validation.** A time-limited one-time code is sent directly to the user's WhatsApp number via the platform's own messaging infrastructure. The user enters the code to prove ownership of the registered number. Expired or invalid codes are rejected before the flow continues.
+
+**Step 3 — New password definition.** After OTP validation, the user sets a new password. The session is invalidated and access is restored with the updated credentials.
+
+This design reflects a deliberate product decision: since the platform is built around WhatsApp as an operational layer, using it as an auth channel for recovery creates a coherent and self-reinforcing user experience.
 
 ## Product Roadmap
 
@@ -297,6 +312,10 @@ The AI layer focuses on a very practical outcome: improving message variation an
 
 List management, number verification, extraction, campaign creation, and analytics all live in the same product. That reduces tool fragmentation and makes the workflow operationally coherent.
 
+### Use WhatsApp as the auth recovery channel
+
+Password recovery is handled through WhatsApp OTP delivery rather than email. This keeps the recovery experience inside the same communication layer the platform is built around, and avoids dependency on email deliverability for a critical auth flow.
+
 ## Reliability and Operational Considerations
 
 The analyzed implementation includes several production-minded design choices:
@@ -308,7 +327,8 @@ The analyzed implementation includes several production-minded design choices:
 - instance rotation controls;
 - plan-limit enforcement;
 - verification before outbound execution;
-- user-facing quality warnings before send.
+- user-facing quality warnings before send;
+- time-limited OTP codes with server-side expiry validation for password recovery.
 
 ## Why This Project Matters
 
@@ -321,10 +341,42 @@ This project demonstrates:
 - practical AI feature design tied to real product outcomes;
 - asynchronous job processing and delivery-state orchestration;
 - cross-platform SaaS product thinking through a PWA-style access model;
+- auth flow design using WhatsApp as an OTP delivery channel;
 - a roadmap that expands the product into interaction design, account health, readiness automation, and segmented lead acquisition;
 - a strong blend of product UX and systems engineering.
 
 It also shows a very practical business skill: turning a messy outbound sales process into a structured, productized, and scalable workflow.
+
+## Demo and Media
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/ai-sales-automation-saas_01.png" alt="Login" style="width:100%;" />
+      <br/><sub><b>Login</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/ai-sales-automation-saas_02.png" alt="Dashboard" style="width:100%;" />
+      <br/><sub><b>Dashboard — Operational Metrics and Plan Usage</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/ai-sales-automation-saas_03.png" alt="WhatsApp Instances" style="width:100%;" />
+      <br/><sub><b>WhatsApp Instances — Infrastructure Management</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/ai-sales-automation-saas_04.png" alt="Extractor" style="width:100%;" />
+      <br/><sub><b>Extractor — Group and Address-Book Lead Capture</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="assets/screenshots/ai-sales-automation-saas_05.png" alt="New Campaign" style="width:50%;" />
+      <br/><sub><b>Campaign Builder — Multi-Step Send Configuration</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## Stack
 
@@ -353,6 +405,7 @@ Users / Sales Teams
         +--> extraction workflows
         +--> reporting
         +--> AI-assisted message preparation
+        +--> WhatsApp OTP password recovery
         |
         v
  Supabase Auth + Database
@@ -362,6 +415,7 @@ Users / Sales Teams
         +--> contacts and lists
         +--> tenant and plan data
         +--> extraction and verification jobs
+        +--> OTP tokens with expiry
         |
         v
  Node.js Worker Layer
@@ -374,18 +428,6 @@ Users / Sales Teams
         v
  WhatsApp / AI / Messaging Integrations
 ```
-
-## Demo and Media
-
-This case study is supported by screenshots showing the path from contact qualification and campaign setup to automated execution and reporting.
-
-- `Dashboard - Operational Metrics and Plan Usage`
-- `Campaign Builder - Multi-Step Send Configuration`
-- `AI Message Variation - Spintax Generation and Quality Checks`
-- `List Management - Contact Base Organization`
-- `WhatsApp Verification - Contact Qualification Workflow`
-- `Extractor - Group and Address-Book Lead Capture`
-- `Campaign Reporting - Delivery Tracking and Performance`
 
 ## About This Repository
 
@@ -404,7 +446,8 @@ I designed and implemented the product architecture and automation workflows beh
 - AI-assisted messaging features;
 - asynchronous worker-based execution;
 - analytics and operational reporting;
-- integration design for messaging and external services.
+- integration design for messaging and external services;
+- WhatsApp OTP authentication flow for password recovery.
 
 ## Contact
 
