@@ -352,28 +352,31 @@ It also shows a very practical business skill: turning a messy outbound sales pr
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/ai-sales-automation-saas_01.png" alt="Login" style="width:100%;" />
+      <img src="https://github.com/user-attachments/assets/755eff1c-691f-4366-b95b-9bd719db7530" alt="Login" width="100%" />
       <br/><sub><b>Login</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/ai-sales-automation-saas_02.png" alt="Dashboard" style="width:100%;" />
+      <img src="https://github.com/user-attachments/assets/3d00c1db-22fe-499c-a345-86aeb15d2049" alt="Dashboard" width="100%" />
       <br/><sub><b>Dashboard — Operational Metrics and Plan Usage</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/ai-sales-automation-saas_03.png" alt="WhatsApp Instances" style="width:100%;" />
+      <img src="https://github.com/user-attachments/assets/472ff130-6344-454c-a6c4-9af94ae8f961" alt="WhatsApp Instances" width="100%" />
       <br/><sub><b>WhatsApp Instances — Infrastructure Management</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/ai-sales-automation-saas_04.png" alt="Extractor" style="width:100%;" />
+      <img src="https://github.com/user-attachments/assets/135d0c3f-c02b-4199-8d93-36b396aa06c4" alt="Extractor" width="100%" />
       <br/><sub><b>Extractor — Group and Address-Book Lead Capture</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="assets/screenshots/ai-sales-automation-saas_05.png" alt="New Campaign" style="width:50%;" />
+      <img src="https://github.com/user-attachments/assets/2965f050-d8f4-4635-a586-2970256b30d0" alt="New Campaign" width="50%" />
       <br/><sub><b>Campaign Builder — Multi-Step Send Configuration</b></sub>
+    </td>
+  </tr>
+</table>r/><sub><b>Campaign Builder — Multi-Step Send Configuration</b></sub>
     </td>
   </tr>
 </table>
