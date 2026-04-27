@@ -352,7 +352,7 @@ It also shows a very practical business skill: turning a messy outbound sales pr
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/755eff1c-691f-4366-b95b-9bd719db7530" alt="Login" width="100%" />
+      <img src="https://github.com/user-attachments/assets/4a667db9-d1dd-42ee-b8c9-0ab71ed2597f" alt="Login" width="100%" />
       <br/><sub><b>Login</b></sub>
     </td>
     <td align="center" width="50%">
