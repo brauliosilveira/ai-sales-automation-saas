@@ -4,8 +4,6 @@ A production-grade SaaS platform for WhatsApp-based sales automation, built to h
 
 This repository is presented as a public portfolio case study for recruiters, hiring managers, and founders evaluating senior full-stack product work. It highlights the product architecture, automation strategy, multi-tenant SaaS design, operational workflows, and AI-assisted messaging features behind the platform while keeping the full source code private for commercial and security reasons.
 
-📺 **[Watch the Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
-
 🌐 **[View the Live Project](https://botpravender.com/)** | **[Try the Free Trial](https://botpravender.com/teste)**
 
 <p>
@@ -13,6 +11,7 @@ This repository is presented as a public portfolio case study for recruiters, hi
     <img src="https://ytcards.demolab.com/?id=VskveXIBP2w&title=0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%230d1117&max_title_lines=2&width=400" />
   </a>
 </p>
+📺 **[Watch the Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
 
 ## Executive Summary
 
