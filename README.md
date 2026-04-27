@@ -6,11 +6,9 @@ This repository is presented as a public portfolio case study for recruiters, hi
 
 🌐 **[View the Live Project](https://botpravender.com/)** | **[Try the Free Trial](https://botpravender.com/teste)**
 
-<p>
-  <a href="https://www.youtube.com/watch?v=VskveXIBP2w">
-    <img src="https://ytcards.demolab.com/?id=VskveXIBP2w&title=0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%230d1117&max_title_lines=2&width=400" />
-  </a>
-</p>
+<a href="https://www.youtube.com/watch?v=VskveXIBP2w">
+  <img src="https://ytcards.demolab.com/?id=VskveXIBP2w&title=0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%230d1117&max_title_lines=2&width=400" />
+</a>
 📺 **[Watch the Video Tour](https://www.youtube.com/watch?v=VskveXIBP2w)**
 
 ## Executive Summary
