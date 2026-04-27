@@ -371,12 +371,12 @@ It also shows a very practical business skill: turning a messy outbound sales pr
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
-      <img src="https://github.com/user-attachments/assets/2965f050-d8f4-4635-a586-2970256b30d0" alt="New Campaign" width="50%" />
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/2965f050-d8f4-4635-a586-2970256b30d0" alt="New Campaign" width="100%" />
       <br/><sub><b>Campaign Builder — Multi-Step Send Configuration</b></sub>
     </td>
-    <td align="center" colspan="2">
-      <img src="https://github.com/user-attachments/assets/0f49379d-5ea7-4213-924d-bd5f1e4d74b7" alt="Mobile" width="50%" />
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/0f49379d-5ea7-4213-924d-bd5f1e4d74b7" alt="Mobile" width="100%" />
       <br/><sub><b>Mobile</b></sub>
     </td>
   </tr>
